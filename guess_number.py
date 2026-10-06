@@ -9,9 +9,10 @@ while True:
     guess = int(input('Enter your guess: '))
 
     if number == guess:
-        print('The Winner!')
         break
     elif number > guess:
         print("It's bigger")
     else:
         print("It's smaller")
+
+print('Here is the winner')
